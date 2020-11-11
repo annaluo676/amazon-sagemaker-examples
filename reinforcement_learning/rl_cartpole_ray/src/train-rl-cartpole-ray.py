@@ -26,7 +26,6 @@ class MyLauncher(SageMakerRayLauncher):
                 "training_iteration": 40
             },
             "config": {
-              "use_pytorch": False,
               "gamma": 0.99,
               "kl_coeff": 1.0,
               "num_sgd_iter": 20,
